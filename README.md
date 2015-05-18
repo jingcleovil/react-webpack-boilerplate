@@ -5,4 +5,5 @@ A boilerplate for ReactJS + Webpack
 * Node and NPM Installed
 
 ####Run Script
-`npm install`
+```npm install```
+```npm start```
