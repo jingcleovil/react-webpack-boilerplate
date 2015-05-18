@@ -6,6 +6,7 @@
   "author": "Jinggo Villamor",
   "scripts": {
     "start": "node src/server/index.js",
+    "webpack-server": "node src/server/webpack-server.js",
     "production": "npm run prodjs; npm run css-login; npm run css",
     "webpack": "webpack --config config/webpack.js",
     "prodjs": "webpack --config config/webpack.prod.js",
@@ -33,9 +34,11 @@
     "jest-cli": "^0.4.0",
     "lodash": "^3.8.0",
     "react-bootstrap": "^0.22.0",
+    "react-hot-loader": "^1.2.7",
     "react-router": "^0.13.3",
     "react-tools": "^0.13.3",
-    "webpack": "^1.8.4"
+    "webpack": "^1.8.4",
+    "webpack-dev-server": "^1.8.2"
   },
   "jest": {
     "scriptPreprocessor": "./tools/preprocessor.js",
