@@ -1,8 +1,9 @@
 {
-  "name": "task-app",
+  "name": "react-webpack-boilerplate",
   "version": "1.0.0",
-  "description": "Rudimentary Task-App that ncludes ImmutableJS, FixedDataTable, Flux and React",
+  "description": "React and Webpack Boiler Plate",
   "main": "src/server/index.js",
+  "author": "Jinggo Villamor",
   "scripts": {
     "start": "node src/server/index.js",
     "production": "npm run prodjs; npm run css-login; npm run css",
