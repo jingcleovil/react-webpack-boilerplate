@@ -10,7 +10,7 @@
     "webpack": "webpack --config config/webpack.js",
     "prodjs": "webpack --config config/webpack.prod.js",
     "webpack-watch": "webpack --config config/webpack.js --watch --colors",
-    "css": "cat node_modules/fixed-data-table/dist/fixed-data-table.min.css | cleancss -o src/client/css/style.min.css"
+    "css": "cat node_modules/fixed-data-table/dist/fixed-data-table.min.css src/client/css/style.css | cleancss -o src/client/css/style.min.css"
   },
   "dependencies": {
     "debug": "^2.1.3",
